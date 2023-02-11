@@ -1,0 +1,70 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "Login Module",
+        "description": "",
+        "id": "adactin-hotel-booking-application;login-module",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3403659000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Launch The Adactin Url",
+            "match": {
+              "location": "StepDef.launch_The_Adactin_Url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 134864700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Enter The  UserName In The InputBox",
+            "match": {
+              "location": "StepDef.enter_The_UserName_In_The_InputBox()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 112753800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Enter The  PassWord In The InputBox",
+            "match": {
+              "location": "StepDef.enter_The_PassWord_In_The_InputBox()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 400543100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click On The Login Btn and It Navigates To Select HotelPage",
+            "match": {
+              "location": "StepDef.click_On_The_Login_Btn_and_It_Navigates_To_Select_HotelPage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Adactin Hotel Booking Application",
+    "description": "",
+    "id": "adactin-hotel-booking-application",
+    "keyword": "Feature",
+    "uri": "adactin.feature"
+  }
+]
